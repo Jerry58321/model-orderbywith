@@ -1,0 +1,31 @@
+{
+    "name": "jerry58321/model-orderbywith",
+    "description": "This is a sorting method for Laravel Eloquent Model relationships.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jerry58321\\ModelOrderByWith\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jerry58321"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "laravel/framework": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0|^6.0|^7.0",
+        "phpunit/phpunit": "^9.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jerry58321\\ModelOrderByWith\\BuilderServiceProvider"
+            ]
+        }
+    }
+}
