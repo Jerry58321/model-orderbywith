@@ -8,13 +8,15 @@ composer require jerry58321/model-orderbywith
 
 ## **說明**
 
-這是程式庫是 Laravel 中 Eloquent Builder 的擴充方法，
-它可以實現透過 Eloquent Relationships 的方式關聯排序。
+這個程式庫是 Laravel 中 Eloquent Builder 的擴充方法，能夠透過 Eloquent Relationships 的方式實現關聯排序。
 
-除此之外：
-1. 可以使用聚合函數排序
-2. 可以使用遠程關聯排序
-3. 可以在關聯中加上其他條件
+除此之外，它還具備以下優化特點：
+
+1. 可以利用聚合函數進行排序，提供更靈活的排序需求處理方式。
+2. 可以在遠程關聯中進行排序，使得在關聯模型之間的遠程關聯中進行排序成為可能。
+3. 可以在關聯中加入其他條件，進一步細化關聯排序的範圍和結果。
+
+透過這個程式庫，您可以更有效率且便捷地在使用 Eloquent Builder 進行關聯排序時實現以上功能。
 
 ## **實際使用方法**
 
